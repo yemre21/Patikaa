@@ -1,0 +1,15 @@
+C:\Yunus\c#\console-programlama\bin\Debug\net6.0\console-programlama.exe
+C:\Yunus\c#\console-programlama\bin\Debug\net6.0\console-programlama.deps.json
+C:\Yunus\c#\console-programlama\bin\Debug\net6.0\console-programlama.runtimeconfig.json
+C:\Yunus\c#\console-programlama\bin\Debug\net6.0\console-programlama.dll
+C:\Yunus\c#\console-programlama\bin\Debug\net6.0\console-programlama.pdb
+C:\Yunus\c#\console-programlama\obj\Debug\net6.0\console-programlama.csproj.AssemblyReference.cache
+C:\Yunus\c#\console-programlama\obj\Debug\net6.0\console-programlama.GeneratedMSBuildEditorConfig.editorconfig
+C:\Yunus\c#\console-programlama\obj\Debug\net6.0\console-programlama.AssemblyInfoInputs.cache
+C:\Yunus\c#\console-programlama\obj\Debug\net6.0\console-programlama.AssemblyInfo.cs
+C:\Yunus\c#\console-programlama\obj\Debug\net6.0\console-programlama.csproj.CoreCompileInputs.cache
+C:\Yunus\c#\console-programlama\obj\Debug\net6.0\console-programlama.dll
+C:\Yunus\c#\console-programlama\obj\Debug\net6.0\refint\console-programlama.dll
+C:\Yunus\c#\console-programlama\obj\Debug\net6.0\console-programlama.pdb
+C:\Yunus\c#\console-programlama\obj\Debug\net6.0\console-programlama.genruntimeconfig.cache
+C:\Yunus\c#\console-programlama\obj\Debug\net6.0\ref\console-programlama.dll
