@@ -32,11 +32,8 @@ Aşağıdaki sorgu senaryolarını dvdrental örnek veri tabanı üzerinden ger�
 
 -) payment tablosunda en fazla sayıda alışveriş yapan müşterileri(customer) sıralayınız.
 
--> SELECT customer.first_name, customer.last_name FROM customer 
--> WHERE  customer_id =
--> ( 
-->   SELECT customer_id FROM payment
-->   WHERE amount = MAX(amount)
--> );
-
---- not: son sorgu düzenlenecek, şuan hatalı olabilir
+-> SELECT customer.first_name, customer.last_name, SUM(amount) FROM payment 
+-> JOIN customer ON custumer.customer_id = payment.customer_id
+-> GROUP BY customer.first_name, customer.last_name, payment.customer_id
+-> ORDER BY SUM(amount) DESC
+-> LIMIT 10;
