@@ -32,11 +32,11 @@ Aşağıdaki sorgu senaryolarını dvdrental örnek veri tabanı üzerinden ger�
 
 -) payment tablosunda en fazla sayıda alışveriş yapan müşterileri(customer) sıralayınız.
 
--> SELECT first_name, last_name FROM customer 
--> WHERE customer_id = 
+-> SELECT customer.first_name, customer.last_name FROM customer 
+-> WHERE  customer_id =
 -> ( 
 ->   SELECT customer_id FROM payment
 ->   WHERE amount = MAX(amount)
 -> );
 
---- not: son sorgu düzenlenecek, şuan hatalı
+--- not: son sorgu düzenlenecek, şuan hatalı olabilir
